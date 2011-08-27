@@ -20,17 +20,5 @@ describe('KomodoScheme.Color', function() {
         expect(purple.toRGB()).toEqual([120,31,135]);
         expect(purple.toHtmlRGB()).toEqual('rgb(120,31,135)');
     });
-    
-
-    /* it ('accepts a BGR value and renders it into RGB and hex', function(){
-        // White
-        var color = 
-        expect(color.hex).toEqual('ffffff');
-        expect(color.rgb).toEqual([255,255,255]);
-        // Some other random color
-        color = 
-        expect(color.hex).toEqual('781f87');
-        expect(color.rgb).toEqual([120,31,135]);
-    }); */
 
 });
