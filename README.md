@@ -25,8 +25,8 @@ Usage
     // Or, individual scheme attributes can be accessed through a hash:
     console.log(scheme.commonStyles.strings.fore);
 
-    // Also included is a Color class which provides parsing of the BGR color
-    // into several formats
+Also included is a Color class which provides parsing of the BGR color into several formats
+
     var Color = require('komodo-scheme').Color;
     var c = new Color(scheme.commonStyles.strings.fore);
 
