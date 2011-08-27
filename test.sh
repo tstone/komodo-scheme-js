@@ -1,0 +1,1 @@
+env NODE_PATH=test/jasmine-node/lib:test/specs node test/jasmine-node/specs.js
