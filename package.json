@@ -1,6 +1,6 @@
 {
     "name": "komodo-scheme",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "A class for parsing Komodo Edit/IDE scheme files (*.ksf) into a workable format.",
     "homepage": "http://github.com/tstone/komodo-scheme-js",
     "keywords": ["komodo", "scheme"],
@@ -18,5 +18,6 @@
         "url": "http://github.com/tstone/komodo-scheme-js.git",
         "web": "http://github.com/tstone/komodo-scheme-js"
     },
-    "main": "komodo-scheme"
+    "main": "komodo-scheme",
+    "engines": [ "node >= 0.4"]
 }
